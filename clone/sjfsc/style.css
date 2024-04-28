@@ -1,0 +1,220 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 80vh;
+    /* background-image: linear-gradient(to bottom right, #fbf8d8, #fdf9aa, #d7f378, #c9f172, #50b159, #182e2a); */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 2rem 0 2rem;
+}
+
+.logo {
+    height: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.1rem solid lightgray;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 0.5rem;
+    min-width: 21rem;
+    z-index: 1;
+    background-color: rgba(254, 254, 254, 0.289);
+    backdrop-filter: saturate(180%) blur(30px);
+    box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgba(196, 196, 196, 0.32);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0.9rem 2rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #000000;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.dropdown:hover .dropBtn {
+    background-color: rgba(0, 0, 0, 0.105);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropBtn {
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+}
+
+li {
+    list-style-type: none;
+    margin: 0 1.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    border: 0.1rem solid grey;
+    background-color: red;
+    color: white;
+}
+
+.headerBtn {
+    margin-left: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HERO */
+
+.Hero {
+    text-align: left;
+    padding: 2rem;
+}
+
+.heroHeadline {
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.heroBtns {
+    display: flex;
+    align-items: center;
+}
+
+.heroBtn {
+    margin-right: 2rem;
+    font-size: 2rem;
+}
+
+#playBtn {
+    height: 1rem;
+    margin:0 0 -0.1rem 0.2rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.partSecondHeadline {
+    font-size: 4rem;
+    margin: 4rem;
+    text-align: center;
+}
+
+.partOnePara {
+    font-size: 1.2rem;
+}
+
+.partSecond {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.partOne {
+    display: flex;
+    margin: 1rem;
+    gap: 2rem;
+    width: calc(100% - 2rem);
+}
+
+.partLeft, .partRight {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(211, 211, 211, 0.325);
+    padding: 2rem 2rem 0 2rem;
+    border-radius: 2rem;
+    width: calc(50% - 5rem);
+}
+
+.partTwo {
+    padding: 2rem;
+    background-color: rgba(211, 211, 211, 0.325);
+    margin: 0 1rem;
+    border-radius: 2rem;
+}
+
+.partThird {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(211, 211, 211, 0.325);
+    padding: 2rem;
+    border-radius: 2rem;
+    width: calc(33.33333% - 5rem);
+}
+
+.icons {
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(205, 231, 8);
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.image1,
+.image2 {
+    height: 30rem;
+}
+
+.image1 {
+    margin-left: 4rem;
+}
+
+.image2 {
+    margin-left: -4rem;
+}
+
+.image3,
+.image4,
+.image5,
+.image6 {
+    height: 10rem;
+}
+
+
